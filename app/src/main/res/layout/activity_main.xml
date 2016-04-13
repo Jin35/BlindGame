@@ -1,0 +1,38 @@
+<ru.jin35.blind.GestureListener
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="36dp"
+        android:id="@+id/gesture"
+        android:background="#fff"
+        tools:context="ru.jin35.blind.Main">
+
+    <ru.jin35.blind.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+
+    <ImageView
+            android:id="@+id/finish"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/finish"
+            android:contentDescription="@string/finish"/>
+
+    <ImageView
+            android:id="@+id/user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#11a33d"
+            android:contentDescription="@string/user"
+    />
+
+
+    <ru.jin35.blind.LightView
+            android:id="@+id/light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</ru.jin35.blind.GestureListener>
